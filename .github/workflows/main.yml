@@ -26,9 +26,3 @@ jobs:
       - name: Analyze Code with Pylint
         run: |
           pylint $(git ls-files '*.py')
-        run: npm install
-
-      # Step 4: Run pylint to analyze Python code
-      - name: Analyze Code with Pylint
-        run: |
-          pylint $(git ls-files '*.py')
